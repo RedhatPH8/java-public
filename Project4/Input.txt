@@ -1,0 +1,50 @@
+5,Honda,CR-V,2008,1,121990,true,10000
+4,Toyota,Sienna,2004,1,180897,true,8000
+6,GMC,Sierra,2006,1,152254,false,2500
+5,GMC,Terrain,2014,0,34322,true,40000
+4,Kia,Sedona,2000,1,243986,false,24000
+3,Nissan,Versa,2006,2,150702,4,2500
+2,Toyota,Yaris,2007,0,136382,5,2000
+3,Honda,Accord,2011,1,77659,2,15000
+3,Honda,Civic,2009,2,106098,4,9000
+4,Dodge,Grand Caravan,2015,1,15797,true,36000
+2,Hyundai,Accent,2008,2,123536,5,4000
+4,Toyota,Sienna,2004,2,180443,false,8000
+3,Cadillac,ATS,2003,1,195948,4,9000
+5,GMC,Acadia,2001,1,229434,false,25000
+6,Ford,F-150,2001,2,227724,false,30000
+1,BMW,4 Series,2015,1,17503,2,9000
+2,Mazda,Mazda3,2004,1,183402,3,4000
+4,Kia,Sedona,2004,2,184749,true,8000
+5,Jeep,Grand Cherokee,2010,0,90695,true,20000
+6,Chevrolet,Colorado,2007,0,135546,true,6000
+3,Kia,Optima,2008,1,121675,2,6000
+5,Mazda,CX-5,2009,1,107149,false,15000
+1,Audi,A3,2005,0,169855,4,1000
+1,Chevrolet,Corvette,2015,1,15297,4,9000
+1,Porsche,911,2013,1,46244,4,7000
+4,Honda,Odyssey,2001,0,225805,false,20000
+5,Ford,Escape,2006,1,151914,true,2500
+5,Ford,Explorer,2002,2,211907,true,20000
+3,Toyota,Camry,2009,2,108349,2,9000
+2,Chevrolet,Sonic,2002,2,212737,5,8000
+6,Dodge,RAM,2000,2,243415,false,36000
+4,Toyota,Sienna,2006,1,152657,false,2500
+4,Honda,Odyssey,2006,0,152264,true,2500
+1,Chevrolet,Camaro,2012,0,64060,2,6000
+2,MINI,Cooper,2000,1,242939,3,12000
+6,Toyota,Tundra,2009,1,108435,true,18000
+1,Volkswagon,Beetle,2006,1,152605,2,2500
+5,Jeep,Wrangler,2014,0,31781,false,40000
+3,Ford,Focus,2003,1,196477,2,9000
+5,Ford,Explorer,2004,0,182115,false,10000
+6,Toyota,Tacoma,2014,2,34505,false,48000
+4,Chrysler,Town & Country,2013,0,45523,false,28000
+1,Ford,Mustang,2005,1,168739,4,1000
+4,Dodge,Grand Caravan,2006,1,152214,true,2500
+2,Toyota,Prius,2008,2,122021,3,4000
+6,Toyota,Tacoma,2012,2,64711,false,36000
+2,FIAT,500,2002,2,210019,3,8000
+5,Honda,CR-V,2003,2,199291,false,15000
+5,Toyota,Highlander,2012,0,64943,false,30000
+4,Nissan,Quest,2009,1,109139,true,12000

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="game">
+  <ClassDiagramComponents>
+    <Class name="game" package="TheBigBangGame" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="SHELDON_WINS" type="int" visibility="private" isFinal="true"/>
+        <Field name="leonardsMove" type="int" visibility="public"/>
+        <Field name="sheldonsInitialMove" type="int" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="convertShape" returnType="int" visibility="public">
+          <Argument type="String" name="shape"/>
+        </Method>
+        <Method name="determineLeonardsNextMove" returnType="void" visibility="private">
+          <Argument type="int" name="sheldonsLastMove"/>
+          <Argument type="int" name="leonardsLastMove"/>
+          <Argument type="int" name="gameOutcome"/>
+        </Method>
+        <Method name="determineSheldonsNextMove" returnType="void" visibility="private">
+          <Argument type="int" name="sheldonsLastMove"/>
+          <Argument type="int" name="leonardsLastMove"/>
+          <Argument type="int" name="gameOutcome"/>
+        </Method>
+        <Method name="determineWinner" returnType="void" visibility="private">
+          <Argument type="int" name="sheldonsMove"/>
+          <Argument type="int" name="leonardsMove"/>
+        </Method>
+        <Method name="getBetterMove" returnType="int" visibility="private">
+          <Argument type="int" name="lastMove"/>
+        </Method>
+        <Method name="getLeonardsWinCount" returnType="int" visibility="public"/>
+        <Method name="getSheldonsWinCount" returnType="int" visibility="public"/>
+        <Method name="getTieCount" returnType="int" visibility="public"/>
+        <Method name="playGame" returnType="void" visibility="public">
+          <Argument type="int" name="sheldonsInitialMove"/>
+          <Argument type="int" name="leonardsInitialMove"/>
+          <Argument type="int" name="numberGames"/>
+        </Method>
+        <Method name="updateScores" returnType="void" visibility="private">
+          <Argument type="int" name="gameOutcome"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

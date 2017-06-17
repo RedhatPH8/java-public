@@ -1,0 +1,3 @@
+rock,spock,1
+rock,paper,1
+rock,rock,1

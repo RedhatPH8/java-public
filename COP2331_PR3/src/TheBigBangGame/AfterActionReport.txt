@@ -1,0 +1,11 @@
+After Action Report: Rock Paper Scissors Lizard Spock
+
+I collaborated on this project primarily with Christian Wilson;
+
+After completing this project I have learned that I still don't quite understand the processes 
+involved in creating new objects and I need to work with it more to better understand this.
+
+The other big thing that I learned was when calling methods and modifying variables we need to 
+watch the order we change them. I spent two days trying to figure out why my test cases were 
+not operating in the order I expected. Finally I determined that by switching the order in which
+Leonard and Sheldon determine their next moves everything operated correctly.

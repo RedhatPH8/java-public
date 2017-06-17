@@ -1,0 +1,10 @@
+run:
+Ryan Geddings, N01067534
+Homework 8
+
+Contents of the Array (unsorted):
+[113, 380, 293, 290, 246, 456, 797, 888, 981, 214, 323, 99, 591, 208, 895]
+
+Contents of the Array (sorted):
+[113, 380, 293, 290, 246, 456, 797, 888, 981, 214, 323, 99, 591, 208, 895]
+BUILD SUCCESSFUL (total time: 0 seconds)

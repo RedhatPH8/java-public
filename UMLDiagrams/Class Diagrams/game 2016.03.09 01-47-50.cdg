@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="game">
+  <ClassDiagramComponents>
+    <Class name="game" package="cop2331_pr3" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="SHELDON_WINS" type="int" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="leonardsMove" type="int" visibility="private" isStatic="true"/>
+        <Field name="sheldonsInitialMove" type="int" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="convertShape" returnType="int" visibility="public" isStatic="true">
+          <Argument type="String" name="shape"/>
+        </Method>
+        <Method name="determineLeonardsNextMove" returnType="void" visibility="private" isStatic="true">
+          <Argument type="int" name="sheldonsLastMove"/>
+          <Argument type="int" name="leonardsLastMove"/>
+          <Argument type="int" name="gameOutcome"/>
+        </Method>
+        <Method name="determineSheldonsNextMove" returnType="void" visibility="private" isStatic="true">
+          <Argument type="int" name="sheldonsLastMove"/>
+          <Argument type="int" name="leonardsLastMove"/>
+          <Argument type="int" name="gameOutcome"/>
+        </Method>
+        <Method name="determineWinner" returnType="int" visibility="private" isStatic="true">
+          <Argument type="int" name="sheldonsMove"/>
+          <Argument type="int" name="leonardsMove"/>
+        </Method>
+        <Method name="getBetterMove" returnType="int" visibility="private" isStatic="true">
+          <Argument type="int" name="lastMove"/>
+        </Method>
+        <Method name="getLeonardsWinCount" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="getSheldonsWinCount" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="getTieCount" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="playGame" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int" name="sheldonsInitialMove"/>
+          <Argument type="int" name="leonardsInitialMove"/>
+          <Argument type="int" name="numberGames"/>
+        </Method>
+        <Method name="updateScores" returnType="void" visibility="private" isStatic="true">
+          <Argument type="int" name="gameOutcome"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

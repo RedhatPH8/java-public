@@ -1,0 +1,35 @@
+run:
+Ryan Geddings, N01067534
+Project 3 Rock Paper Scissors Lizard Spock
+
+Sheldon's initial move: spock
+Leonard's initial move: rock
+
+Sheldon wins!
+Sheldon won 2 game(s), Leonard won 1 game(s) and they tied 1 game(s).
+
+Sheldon's initial move: rock
+Leonard's initial move: lizard
+
+Tie Game!
+Sheldon and Leonard each won 1 game(s) and they tied 1 game(s).
+
+Sheldon's initial move: paper
+Leonard's initial move: lizard
+
+Leonard wins!
+Sheldon won 0 game(s), Leonard won 5 game(s) and they tied 0 game(s).
+
+Sheldon's initial move: spock
+Leonard's initial move: spock
+
+Tie Game!
+Sheldon and Leonard each won 0 game(s) and they tied 2 game(s).
+
+Sheldon's initial move: lizard
+Leonard's initial move: spock
+
+Sheldon wins!
+Sheldon won 3 game(s), Leonard won 0 game(s) and they tied 0 game(s).
+
+BUILD SUCCESSFUL (total time: 0 seconds)

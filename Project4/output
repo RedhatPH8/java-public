@@ -1,0 +1,120 @@
+run:
+Ima Java Programmer
+Project 4
+
+Car Information:
+Total Cars:         21
+Minimum Price:      1000
+Maximum Price:      15000
+Average Price:      6523.81
+Minimum Mileage:    15297
+Maximum Mileage:    242939
+Average Mileage:    134392.71
+Minimum Year:       2000
+Maximum Year:       2015
+Least Avail. Color: Black (3)
+Most Avail. Color:  Blue (11)
+
+Color   Year   Make         Model            Mileage   Doors   Body Type       Price
+-----   ----   ----         -----            -------   -----   ---------       -----
+Red     2006   Nissan       Versa             150702       4   Sedan            2500
+Black   2007   Toyota       Yaris             136382       5   Hatchback        2000
+Blue    2011   Honda        Accord             77659       2   Sedan           15000
+Red     2009   Honda        Civic             106098       4   Sedan            9000
+Red     2008   Hyundai      Accent            123536       5   Hatchback        4000
+Blue    2003   Cadillac     ATS               195948       4   Sedan            9000
+Blue    2015   BMW          4 Series           17503       2   Convertible      9000
+Blue    2004   Mazda        Mazda3            183402       3   Hatchback        4000
+Blue    2008   Kia          Optima            121675       2   Sedan            6000
+Black   2005   Audi         A3                169855       4   Convertible      1000
+Blue    2015   Chevrolet    Corvette           15297       4   Convertible      9000
+Blue    2013   Porsche      911                46244       4   Convertible      7000
+Red     2009   Toyota       Camry             108349       2   Sedan            9000
+Red     2002   Chevrolet    Sonic             212737       5   Hatchback        8000
+Black   2012   Chevrolet    Camaro             64060       2   Convertible      6000
+Blue    2000   MINI         Cooper            242939       3   Hatchback       12000
+Blue    2006   Volkswagon   Beetle            152605       2   Convertible      2500
+Blue    2003   Ford         Focus             196477       2   Sedan            9000
+Blue    2005   Ford         Mustang           168739       4   Convertible      1000
+Red     2008   Toyota       Prius             122021       3   Hatchback        4000
+Red     2002   FIAT         500               210019       3   Hatchback        8000
+
+Minivan Information:
+Total Minivans:     11
+Minimum Price:      2500
+Maximum Price:      36000
+Average Price:      13772.73
+Minimum Mileage:    15797
+Maximum Mileage:    243986
+Average Mileage:    149406.73
+Minimum Year:       2000
+Maximum Year:       2015
+Least Avail. Color: Red (2)
+Most Avail. Color:  Blue (6)
+
+Color   Year   Make         Model            Mileage   Option                  Price
+-----   ----   ----         -----            -------   ------                  -----
+Blue    2004   Toyota       Sienna            180897   Access Ramp              8000
+Blue    2000   Kia          Sedona            243986                           24000
+Blue    2015   Dodge        Grand Caravan      15797   Access Ramp             36000
+Red     2004   Toyota       Sienna            180443                            8000
+Red     2004   Kia          Sedona            184749   Access Ramp              8000
+Black   2001   Honda        Odyssey           225805                           20000
+Blue    2006   Toyota       Sienna            152657                            2500
+Black   2006   Honda        Odyssey           152264   Access Ramp              2500
+Black   2013   Chrysler     Town & Country     45523                           28000
+Blue    2006   Dodge        Grand Caravan     152214   Access Ramp              2500
+Blue    2009   Nissan       Quest             109139   Access Ramp             12000
+
+SUV Information:
+Total SUVs:         11
+Minimum Price:      2500
+Maximum Price:      40000
+Average Price:      20681.82
+Minimum Mileage:    31781
+Maximum Mileage:    229434
+Average Mileage:    129594.64
+Minimum Year:       2001
+Maximum Year:       2014
+Least Avail. Color: Red (2)
+Most Avail. Color:  Black (5)
+
+Color   Year   Make         Model            Mileage   Option                  Price
+-----   ----   ----         -----            -------   ------                  -----
+Blue    2008   Honda        CR-V              121990   Entertainment Package   10000
+Black   2014   GMC          Terrain            34322   Entertainment Package   40000
+Blue    2001   GMC          Acadia            229434                           25000
+Black   2010   Jeep         Grand Cherokee     90695   Entertainment Package   20000
+Blue    2009   Mazda        CX-5              107149                           15000
+Blue    2006   Ford         Escape            151914   Entertainment Package    2500
+Red     2002   Ford         Explorer          211907   Entertainment Package   20000
+Black   2014   Jeep         Wrangler           31781                           40000
+Black   2004   Ford         Explorer          182115                           10000
+Red     2003   Honda        CR-V              199291                           15000
+Black   2012   Toyota       Highlander         64943                           30000
+
+Truck Information:
+Total Trucks:       7
+Minimum Price:      2500
+Maximum Price:      48000
+Average Price:      25214.29
+Minimum Mileage:    34505
+Maximum Mileage:    243415
+Average Mileage:    138084.29
+Minimum Year:       2000
+Maximum Year:       2014
+Least Avail. Color: Black (1)
+Most Avail. Color:  Red (4)
+
+Color   Year   Make         Model            Mileage   Option                  Price
+-----   ----   ----         -----            -------   ------                  -----
+Blue    2006   GMC          Sierra            152254                            2500
+Red     2001   Ford         F-150             227724                           30000
+Black   2007   Chevrolet    Colorado          135546   Tow Package              6000
+Red     2000   Dodge        RAM               243415                           36000
+Blue    2009   Toyota       Tundra            108435   Tow Package             18000
+Red     2014   Toyota       Tacoma             34505                           48000
+Red     2012   Toyota       Tacoma             64711                           36000
+
+Total Vehicles: 50
+BUILD SUCCESSFUL (total time: 0 seconds)

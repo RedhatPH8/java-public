@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-file class diagram">
+  <ClassDiagramComponents>
+    <Class name="Car" package="project4" visibility="public" xPosition="332.0" yPosition="561.0">
+      <Fields>
+        <Field name="HEADER" type="String" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="ROW" type="String" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="NAME" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="numDoors" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="protected">
+          <Argument type="String[]" name="carData"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getHeader" returnType="String" visibility="protected"/>
+        <Method name="getName" returnType="String" visibility="protected"/>
+        <Method name="getNumDoors" returnType="int" visibility="protected"/>
+        <Method name="getRow" returnType="String" visibility="protected"/>
+        <Method name="getType" returnType="int" visibility="protected"/>
+      </Methods>
+    </Class>
+    <Class name="Collection" package="project4" visibility="public" xPosition="12.0" yPosition="1016.0">
+      <Fields>
+        <Field name="DOUBLE_ROW" type="String" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="INT_ROW" type="String" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="STRING_ROW" type="String" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="numVehicles" type="int" visibility="private"/>
+        <Field name="vehicles" type="Vehicle[]" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="maxSize"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="add" returnType="void" visibility="public">
+          <Argument type="Vehicle" name="vehicle"/>
+        </Method>
+        <Method name="displayVehicleInformation" returnType="void" visibility="public"/>
+        <Method name="getAverageMileage" returnType="double" visibility="private"/>
+        <Method name="getAveragePrice" returnType="double" visibility="private"/>
+        <Method name="getColor" returnType="String" visibility="private">
+          <Argument type="boolean" name="leastAvailable"/>
+        </Method>
+        <Method name="getMaxMinMileage" returnType="int" visibility="private">
+          <Argument type="boolean" name="minimum"/>
+        </Method>
+        <Method name="getMaxMinPrice" returnType="int" visibility="private">
+          <Argument type="boolean" name="minimum"/>
+        </Method>
+        <Method name="getMaxMinYear" returnType="int" visibility="private">
+          <Argument type="boolean" name="minimum"/>
+        </Method>
+        <Method name="getTotal" returnType="int" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Convertible" package="project4" visibility="public" xPosition="668.0" yPosition="816.0">
+      <Fields>
+        <Field name="NAME" type="String" visibility="private" isStatic="true" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String[]" name="sonvertibleData"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Hatchback" package="project4" visibility="public" xPosition="672.0" yPosition="360.0">
+      <Fields>
+        <Field name="NAME" type="String" visibility="private" isStatic="true" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String[]" name="hatchbackData"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Minivan" package="project4" visibility="public" xPosition="332.0" yPosition="956.0">
+      <Fields>
+        <Field name="NAME" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPTION" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="hasAccessRamp" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String[]" name="minivanData"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="getType" returnType="int" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Project4" package="project4" visibility="public" xPosition="11.0" yPosition="17.0">
+      <Fields>
+        <Field name="vehicles" type="Collection[]" visibility="package"/>
+        <Field name="sizes" type="int[]" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="displayVehicleData" returnType="void" visibility="private"/>
+        <Method name="execute" returnType="void" visibility="private">
+          <Argument type="String" name="filename"/>
+        </Method>
+        <Method name="readFile" returnType="boolean" visibility="private">
+          <Argument type="String" name="filename"/>
+        </Method>
+        <Method name="storeVehicle" returnType="void" visibility="private">
+          <Argument type="String[]" name="vehicleData"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SUV" package="project4" visibility="public" xPosition="332.0" yPosition="284.0">
+      <Fields>
+        <Field name="NAME" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPTION" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="hasEntertainmentPackage" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String[]" name="suvData"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="getType" returnType="int" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Sedan" package="project4" visibility="public" xPosition="715.0" yPosition="561.0">
+      <Fields>
+        <Field name="NAME" type="String" visibility="private" isStatic="true" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String[]" name="sedanData"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Truck" package="project4" visibility="public" xPosition="271.0" yPosition="17.0">
+      <Fields>
+        <Field name="NAME" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPTION" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="hasTowPackage" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String[]" name="truckData"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="getType" returnType="int" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Vehicle" package="project4" visibility="public" isAbstract="true" xPosition="11.0" yPosition="267.0">
+      <Fields>
+        <Field name="HEADER" type="String" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="ROW" type="String" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="CAR" type="int" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="CONVERTIBLE" type="int" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="HATCHBACK" type="int" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="MINIVAN" type="int" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="SEDAN" type="int" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="SUV" type="int" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="TRUCK" type="int" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="COLOR_BLACK" type="int" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="COLOR_BLUE" type="int" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="COLOR_RED" type="int" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="color" type="int" visibility="private"/>
+        <Field name="make" type="String" visibility="private"/>
+        <Field name="mileage" type="int" visibility="private"/>
+        <Field name="model" type="String" visibility="private"/>
+        <Field name="price" type="int" visibility="private"/>
+        <Field name="year" type="int" visibility="private"/>
+        <Field name="colors" type="String[]" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="protected">
+          <Argument type="String[]" name="vehicleData"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getColor" returnType="int" visibility="protected"/>
+        <Method name="getColor" returnType="String" visibility="protected">
+          <Argument type="int" name="color"/>
+        </Method>
+        <Method name="getHeader" returnType="String" visibility="protected"/>
+        <Method name="getMake" returnType="String" visibility="protected"/>
+        <Method name="getMileage" returnType="int" visibility="protected"/>
+        <Method name="getModel" returnType="String" visibility="protected"/>
+        <Method name="getPrice" returnType="int" visibility="protected"/>
+        <Method name="getRow" returnType="String" visibility="protected"/>
+        <Method name="getYear" returnType="int" visibility="protected"/>
+        <Method name="getName" returnType="String" visibility="protected" isAbstract="true"/>
+        <Method name="getType" returnType="int" visibility="protected" isAbstract="true"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="project4.SUV" target="project4.Vehicle"/>
+    <IsRelation name="is" source="project4.Convertible" target="project4.Car"/>
+    <IsRelation name="is" source="project4.Hatchback" target="project4.Car"/>
+    <IsRelation name="is" source="project4.Minivan" target="project4.Vehicle"/>
+    <IsRelation name="is" source="project4.Car" target="project4.Vehicle"/>
+    <IsRelation name="is" source="project4.Sedan" target="project4.Car"/>
+    <IsRelation name="is" source="project4.Truck" target="project4.Vehicle"/>
+    <UseRelation source="project4.Collection" target="project4.Vehicle" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

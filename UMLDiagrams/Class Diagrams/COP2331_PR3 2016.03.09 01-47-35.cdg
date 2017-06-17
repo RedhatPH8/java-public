@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="COP2331_PR3">
+  <ClassDiagramComponents>
+    <Class name="COP2331_PR3" package="cop2331_pr3" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="LEONARD" type="String" visibility="private" isStatic="true" isFinal="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="displayResults" returnType="void" visibility="private" isStatic="true">
+          <Argument type="int" name="sheldonsInitialMove"/>
+          <Argument type="int" name="sheldonWins"/>
+          <Argument type="int" name="leonardsInitialMove"/>
+          <Argument type="int" name="leonardWins"/>
+          <Argument type="int" name="ties"/>
+        </Method>
+        <Method name="execute" returnType="void" visibility="public" isStatic="true">
+          <Argument type="game" name="playGame"/>
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
